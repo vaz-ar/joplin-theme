@@ -70,12 +70,12 @@ strong, em {
 }
 
 blockquote strong {
-  font-style: bold !important; 
+  font-style: bold !important;
   color: var(--aqua) !important;
 }
 
 blockquote em {
-  font-style: italic !important; 
+  font-style: italic !important;
   color: var(--aqua) !important;
 }
 
@@ -103,15 +103,15 @@ a:hover {
   text-decoration: underline;
 }
 
-.resource-icon { 
+.resource-icon {
   background-color: var(--green) !important;
-  width: 0.9em; 
-  height: 1.1em; 
+  width: 0.9em;
+  height: 1.1em;
   top: 0.2em;
 }
 
-a[href='#'] { 
-  color: var(--green-dark); 
+a[href='#'] {
+  color: var(--green-dark);
 }
 
 abbr {
@@ -188,18 +188,18 @@ b-construction, b-error, b-success, b-notice, b-warning, b-help {
   padding: 10px 10px 10px 50px;
   border: 1px solid;
   border-left: 5px solid;
-  border-radius: 2px; 
+  border-radius: 2px;
   word-wrap: break-word;
   text-align: left;
   box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.3);
   color: var(--grey);
   background-color: transparent;
 }
-b-construction::before, 
-b-error::before, 
-b-success::before, 
-b-notice::before, 
-b-warning::before, 
+b-construction::before,
+b-error::before,
+b-success::before,
+b-notice::before,
+b-warning::before,
 b-help::before {
   font-weight: 700;
   font-size: 1.5em;
@@ -307,8 +307,8 @@ table tr td > ul:last-of-type {
 input[type='checkbox'],
 .md-checkbox .checkbox-label-unchecked,
 .md-checkbox .checkbox-label-checked,
-li.md-checkbox { 
-  cursor: pointer !important; 
+li.md-checkbox {
+  cursor: pointer !important;
 }
 
 li.md-checkbox [type="checkbox"]:not(:checked),
@@ -327,9 +327,9 @@ li.md-checkbox [type="checkbox"]:not(:checked) + label:before,
 li.md-checkbox [type="checkbox"]:checked + label:before {
   content: '';
   position: absolute;
-  left: 0; 
+  left: 0;
   top: 0;
-  width: 1em; 
+  width: 1em;
   height: 1em;
   border: 1px solid var(--dark-grey);
   background: var(--light-grey);
@@ -373,13 +373,13 @@ ul li[class*='checkbox']::before {
 
 /* // MARK: Gallery */
 img.gallery {
-  border: 1px solid #00A3A3; 
+  border: 1px solid #00A3A3;
   margin-right: 10px;
 }
 img.gallery:hover {
-  position: absolute; 
-  width: 100%; 
-  left: 0; 
+  position: absolute;
+  width: 100%;
+  left: 0;
   cursor: pointer;
   z-index: 999;
 }
@@ -403,57 +403,57 @@ h1:hover span.copy-anchor-icon, h2:hover span.copy-anchor-icon, h3:hover span.co
 
 /* // MARK: Calendar */
 .calendar table {
-  border-spacing: 7px; 
-  border-collapse: separate; 
-  border: 0; 
+  border-spacing: 7px;
+  border-collapse: separate;
+  border: 0;
 }
 
 .calendar tr td:first-of-type {
-  color:#fff; 
-  width: 20px; 
+  color:#fff;
+  width: 20px;
   background:rgba(255, 255, 255, .3) !important;
   border-left:0;
   font-weight: bold;
 }
 
-.calendar table tr th, 
+.calendar table tr th,
 .calendar table tr td {
-  border:0; 
-  border-radius:5px; 
+  border:0;
+  border-radius:5px;
   padding:10px;
 }
 
 .calendar table tr td {
   border-left: 30px solid #007c7c70;
-  width: 45px; 
+  width: 45px;
   background: rgba(255,255,255,.1);
 }
 
 .calendar tr td em {
-  position: absolute; 
-  font-weight:bold; 
-  top:10px; 
-  left:-25px; 
+  position: absolute;
+  font-weight:bold;
+  top:10px;
+  left:-25px;
   color: #dddddd !important;
   padding:0;
-} 
+}
 .calendar tr td em::before {
   display:none;
 }
 
-.calendar tr td a em, 
+.calendar tr td a em,
 .calendar tr td a strong {
   color: var(--green-dark) !important;
 }
 
 .calendar tr td strong {
-  position: absolute; 
-  font-weight:bold; 
-  top:10px; 
-  left:-25px; 
+  position: absolute;
+  font-weight:bold;
+  top:10px;
+  left:-25px;
   color: var(--black) !important;
   padding:0;
-} 
+}
 .calendar tr td strong::before {
   display:none;
 }
@@ -469,30 +469,30 @@ h1:hover span.copy-anchor-icon, h2:hover span.copy-anchor-icon, h3:hover span.co
 
 /* <i>[Emoji]</i> => Add an Icon */
 .calendar tr td i {
-  font-style: normal; 
-  position: absolute; 
-  right: 5px; 
+  font-style: normal;
+  position: absolute;
+  right: 5px;
   top: 8px;
 }
 
 /* <m>Januar</m> => Write the monthname */
-.calendar tr td m { 
-  font-weight: bold; 
+.calendar tr td m {
+  font-weight: bold;
   letter-spacing: -1px;
-  position: absolute; 
-  right: 5px; 
-  bottom: -3px; 
+  position: absolute;
+  right: 5px;
+  bottom: -3px;
   color:#aaa;
   font-size: 80%;
 }
 
 /* <d>[Emoji]</d> => Add an Icon next to the calendar day number */
 .calendar tr td d {
-  font-weight: bold; 
+  font-weight: bold;
   letter-spacing: -1px;
-  position: absolute; 
-  left: -10px; 
-  bottom: -3px; 
+  position: absolute;
+  left: -10px;
+  bottom: -3px;
   font-size: 80%;
 }
 
@@ -526,4 +526,32 @@ progress:after {
   margin: -20px 0 0 50px;
   font-size: 13px;
   font-weight: 700;
+}
+
+
+
+/* ----------------------------------------------- */
+/* ------------ Custom overrides ----------------- */
+/* ----------------------------------------------- */
+
+body {
+    font-family: "Noto Sans JP", sans-serif !important;
+}
+
+  /* Taken from joplin-dark-theme */
+.code, code, pre {
+    font-family: "Fira Code" !important;
+    font-size: var(--lessthan-regular);
+    break-inside: avoid;
+}
+
+/* For styling the rendered Markdown */
+@media print {
+    body {
+        font-size: 10px;
+    }
+}
+
+code {
+    white-space: pre-wrap;
 }
